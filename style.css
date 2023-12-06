@@ -1,0 +1,33 @@
+#container {
+    width: 100vw;
+    height: 100vh;
+}
+.displayFlex {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.columnRow {
+    border: 1px solid #808080;
+    width: 20px;
+    height: 20px;
+}
+.columnRow:hover {
+    background-color: #ff0000;
+    transform: scale(1.1);
+}
+.btn {
+    transform: translateX(45vw);
+    padding: 10px 15px;
+    margin: 20px 0;
+    cursor: pointer;
+    color: white;
+    background-color: #1e90ff;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+}
+
+
+
+
